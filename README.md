@@ -1,4 +1,5 @@
 # NYC_Complaints_311
+  - ## The people of New Yorker use the 311 system to report complaints about the non-emergency problems to local authorities. Various agencies in New York are assigned these problems. The Department of Housing Preservation and Development of New York City is the agency that processes 311 complaints that are related to housing and buildings. In the last few years, the number of 311 complaints coming to the Department of Housing Preservation and Development has increased significantly. Although these complaints are not necessarily urgent, the large volume of complaints and the sudden increase is impacting the overall efficiency of operations of the agency. Therefore, the Department of Housing Preservation and Development needs help on managing the large volume of 311 complaints they are receiving every year.
   - ## This project involves two datasets: one is [311 complaint dataset](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9), the other is [PLUTO dataset for housing](https://data.cityofnewyork.us/City-Government/Primary-Land-Use-Tax-Lot-Output-PLUTO-/xuk2-nczf)
   - ## Download the part of "311 complaint dataset" using SODA API, shown as below
 ```python 
@@ -45,7 +46,7 @@ results_df.to_csv('HPDComplaint.csv')
 # check data
 pd.read_csv('HPDComplaint.csv').head()
 ```
-  - ## Analysis of these dataset needs to answer the following questions:
+  - ## Analysis of these dataset will answer the following questions to help the agency:
     - ### 1. Which type of complaint should the Department of Housing Preservation and Development of New York City focus on first?
     - ### 2. Should the Department of Housing Preservation and Development of New York City focus on any particular set of boroughs, ZIP codes, or street (where the complaints are severe) for the specific type of complaints you identified in response to Question 1?
       - #### The analysis for the first two questions can be found in [HPDComplaintsAnalysis.ipynb](https://github.com/OnePiece101/NYC_Complaints_311/blob/master/HPDComplaintsAnalysis.ipynb)
