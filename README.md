@@ -65,5 +65,5 @@ pd.read_csv('HPDComplaint.csv').head()
   - ## Conclusion IV: 
     * ### In this section, relationship between the number of heating-related complaints (identified in Q1&Q2) and various housing characteristics was investigated.
     - ### Feature selection was performed to select most important features that are correlated to the number of heating-complaints, including residential area, number of floors, building depth, the year case was created, building area, and lot area.
-    * ### The best model was found to be support vector machine, with the R2 score of 0.10.  and the model could be used to predict the 5 types of complaints in NYC.
-    * ### The R2 score for the best model is pretty low, so it is hard to predict the number of heating-related complaints with current features. However, although weakly correlated, the government could also work on the features mentioned above to improve the community living condition.
+    * ### The best model was found to be support vector machine, with the R2 score of 0.11.
+    * ### The R2 score for the best model is pretty low, so it is hard to predict the number of heating-related complaints with current features, and it is recommended to collect more features for prediction. However, although weakly correlated, the government could also work on the features mentioned above to improve the community living condition.
