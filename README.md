@@ -60,7 +60,7 @@ pd.read_csv('HPDComplaint.csv').head()
   - ## Conclusion III:
     * ### In this section, relationship between top 5 types of complaints and various housing characteristics was investigated.
     - ### Feature selection was performed to select most important features that are correlated to the types of complaints, including the year and month created, location (GPS coords) of the house, building floor area, lot area, lot and building depth, the year bulit and altered.
-    * ### The best model was found to be random forest, with the roc_auc score of 0.85, and the model could be used to predict the 5 types of complaints in NYC.
+    * ### The best model was found to be random forest, with the roc_auc score of 0.94, and the model could be used to predict the 5 types of complaints in NYC.
     * ### The NYC government could use the features mentioned above to predict future types of complaints including general construction, heating, plumbing, and unsanity condition, and then set a series plans to improve the community.
   - ## Conclusion IV: 
     * ### In this section, relationship between the number of heating-related complaints (identified in Q1&Q2) and various housing characteristics was investigated.
